@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>One Good Daily</title>
+	<!--Stylesheets-->
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="animate.css" rel="stylesheet" type="text/css">
+	<style> body{background-color: pink;}
+	</style>
+</head>
+<div>
+	<p><span id="datetime"></span></p>
+	<div id="smileyface"><img src="SMILE.gif" alt="emoji" width="350">
+	<div class="title pulse animated">
+	<h1>What is one good thing you did today?</h1></div>
+</div>
+
+
+<body>
+	
+	<textarea rows="2" cols="65" placeholder="Today, I...(prayed for someone I know who is going through something)"></textarea>
+	<p> <a href="second.html">share good</a></p>
+
+</body>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
+
+</html>
+

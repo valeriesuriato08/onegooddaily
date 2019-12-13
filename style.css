@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+	font-size: 80px;
+	font-family: arial;
+	color: maroon;
+	margin-top: 80px;
+	margin-left: -550px;
+
+}
+
+p{
+	font-size: 43px;
+	font-family: arial;
+	color:maroon;
+
+}
+
+textarea{
+	font-size: 30px;
+	font-family: arial;
+	margin-left: 600px;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 1500px;
+	font-size: 40px;
+
+}
+
+
+#smileyface{
+	margin-left: 900px;
+	margin-top: 50px;
+
+}
+
+/* Flash class and keyframe animation */
+.flashit{
+  color:#f2f;
+	-webkit-animation: flash linear 2s infinite;
+	animation: flash linear 2s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
